@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/itross/cbus/issues"
   },
-  "homepage": "https://github.com/itross/cbus#readme"
+  "homepage": "https://github.com/itross/cbus#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
 }
