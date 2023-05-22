@@ -4,7 +4,7 @@
   "description": "Node.js command bus",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,13 @@
   "homepage": "https://github.com/itross/cbus#readme",
   "engines": {
     "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "tap": "^16.3.4"
   }
 }
