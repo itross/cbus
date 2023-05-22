@@ -37,9 +37,6 @@ test('Should get error registering handler with no handler Function', t => {
 
   const bus = new CommandBus()
 
-  // t.rejects(bus.registerHandler('only-command-name'),
-  //   'Malformed params for registerHandler(). Expecting 2 params: "command" as a string and "handler" as a function.')
-
   t.throws(() => {
     bus.registerHandler('only-command-name')
   }, Error('Malformed params for registerHandler(). Expecting 2 params: "command" as a string and "handler" as a function.'))
