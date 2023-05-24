@@ -64,12 +64,13 @@ Register an handler for a specific command.
 
 ### hasHandler(command)
 Checks if an handler for the input command has been registered.<br>
-It returns a boolean value.
+Returns a boolean value.
 * ```command```: a string representing the command name to check handler for
 
 ### send(command, data)
 Send the command with data payload to the handler.<br>
-It rejects if no handler has been registered for the command.
+Returns the command result, if any.<br>
+Rejects if no handler has been registered for the command.
 * ```command```: a string representing the command name to be sent
 * ```data```: an object to be sent as command payload
 
