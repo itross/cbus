@@ -1,6 +1,6 @@
 {
   "name": "@itross/cbus",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Node.js command bus",
   "main": "index.js",
   "scripts": {
