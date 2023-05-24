@@ -29,7 +29,7 @@ cbus.registerHandler('create_user', async (data) => {
 })
 
 ;(async () => {
-    // send your command
+  // send your command
   const user = await cbus.send('create_user', {
     username: 'frank.zappa',
     email: 'fz@test.com'
